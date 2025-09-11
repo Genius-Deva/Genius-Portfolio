@@ -1,192 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genius</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./Assignment6.css">
-</head>
-
-<body>
-    <header>
-        <nav>
-            <div class="left-side">
-                <img src="../IMAGES/my_new_logo-removebg-preview.png" alt="" class="logo">
-            </div>
-            <div class="menu-list">
-                <ul><a href="#section1">About</a></ul>
-                <ul><a href="#section2">Resume</a></ul>
-                <ul><a href="">Services</a></ul>
-                <ul><a href="">Skills</a></ul>
-                <ul><a href="">Contact</a></ul>
-                <ul><a href="">Work</a></ul>
-                <i class="fa-solid fa-bars"></i>
-
-
-
-            </div>
-        </nav>
-    </header>
-    <section class="hero">
-        <div class="texts">
-
-            <h1>Hay, I am Ahmad Olanrewaju</h1>
-            <span>A web developer and a Tech bro.</span>
-        </div> <img src="../IMAGES/my pics.jpg" alt="" class="pic">
-
-
-        <!-- <img src="../IMAGES/my pics.jpg" alt="" class="image"> -->
-
-    </section>
-
-    <section class="section1">
-        <br><br><br><br><br><br><br>
-        <h1>About me</h1>
-        <br><br>
-        <img src="../IMAGES/my pics.jpg" alt="" class="pic2">
-        <!-- <p>Empowering others through coding</p> -->
-        <br><br>
-        <div class="me">
-            <span class="txts2">Hi, I'm Olanrewaju Ahmad, a passionate and driven student with a love for coding.
-                <br>With 1 year of experience in coding, I've developed a strong expertise in many <br>languages and a
-                keen eye for javascript.My journey began 1 years ago, and <br> since then, I've had the privilege of
-                studing in SQI college of ICT and achieving <br>my goals as a programmer.
-
-                When I'm not working, you can find me playing games <br> or exploring websites. I'm fascinated by
-                websites and enjoy staying up-to-date with <br> the latest trends and developments. My goal is to be the
-                best programmer in the world <br> and teaching others to code which not only empowers them but also
-                creates a ripple <br> effect of innovation and progress and make a meaningful impact in Technology. <br>
-
-                I'm excited to connect with like-minded individuals, share my experiences, and learn <br> from others.
-                Let's collaborate, inspire, and grow together!</span>
-        </div>
-
-    </section>
-    <div class="section2">
-        <br><br><br><br><br><br><br>
-        <div class="resume">
-            <h1>Resume</h1>
-        </div>
-
-        <br><br>
-        <p><strong> Education:</strong></p>
-        <br><br>
-        <p>- Al-Buruuj (2012-2018)
-            <br>
-            - TSPC college (2018-2024) <br>
-            - OASOS (2024-Present)
-        </p>
-        <br><br><br><br>
-
-
-
-
-
+   <header>
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./Images/my_new_logo-removebg-preview.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
+   </header>
+   <div class="card text-bg-dark">
+  <img src="./Images/Genius Tech.png" class="card-img" alt="Logo">
+  <div class="card-img-overlay">
+    <h1 class="card-title">Hay, I am <br> Ahmad <br>Olanrewaju.</h1>
+    <h3 class="card-text ">A web developer  </h3>
+  </div>
+</div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="section3">
-        <br><br>
-
-        <div class="services">
-            <h1>Services</h1>
+<div class="sec1">
+    <br><br><br><br>
+    <div class="services">
+        <h1>Services</h1>
         </div>
-        <br><br><br><br>
-        <div class="weban">
-            <div class="experience">
-                <h2>Web Developement</h2>
-                <br><br>
-                <h3>A highly skilled Software Engineer with 1 <br> year of experience in Full-Stack <br> Development.
-                    Passionate about building <br>scalable solutions and optimizing <br>performance.
+        <br><br><br><br><br>
+<div class="section1">
+    
+   
+    <p><strong>Web Developement <br><br></strong>
+A highly skilled Software Engineer with 3 years <br>of experience in Full-Stack <br>Development. Passionate about building <br>scalable solutions and optimizing <br>performance.</h1>
+<p><strong>Web Design <br><br></strong>
+A highly skilled web designer with many <br>features including support for developing <br>applications and developing applications <br>with different languages</p>
 
-                </h3>
-            </div>
+<p><strong>Responsive Web Design <br><br></strong>
+I build scalable web apps that can be <br>responsive on different platforms and <br>mobile devices.</p>
 
-            <div class="web-design">
-                <h2>Web Design</h2>
-                <br><br>
-                <h3>A highly skilled web designer with many <br> features including support for developing <br>
-                    applications and developing applications <br> with different languages
+</div>
 
-                </h3>
-            </div>
-        </div>
-        <br><br><br><br>
-        <div class="responsive">
-            <h2>Responsive Web Design</h2>
-            <br><br>
-            <h3>I build scalable web apps that can be <br> responsive on different platforms and <br> mobile devices.
-            </h3>
-        </div>
+</div>
 
 
+
+<div class="sec2">
+    <br><br><br><br><br><br>
+    <div class="card" style="width: 18rem;">
+  <img src="./Images/Genius Tech.png" class="card-img-top h-75" alt="logo">
+  <div class="card-body ">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Building a scalable website.</p>
+    <a href="./index.html" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+
+<div class="sec3">
+    <form class="row gy-2 gx-3 align-items-center">
+  <div class="col-auto">
+    <label class="visually-visible" for="autoSizingInput">Name</label>
+    <input type="text" class="form-control" id="autoSizingInput" placeholder=" Doe">
+  </div>
+    <div class="col-auto">
+    <label class="visually-visible" for="autoSizingInput">Surname</label>
+    <input type="text" class="form-control" id="autoSizingInput" placeholder="Jane">
+  </div>
+  <div class="col-auto">
+    <label class="visually-Visible" for="autoSizingInputGroup">Username</label>
+    <div class="input-group">
+      <div class="input-group-text">@</div>
+      <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
     </div>
-
-
-
-    <div class="section4">
-        <br><br>
-        <h1>Skills</h1>
-        <br><br><br>
-        <div class="skills">
-            <br><br><br>
-            <img src="../IMAGES/Html logo.svg" alt="image" class="html">
-            <img src="../IMAGES/css logo.svg" alt="image" class="css">
-            <img src="../IMAGES/javascript logo.svg" alt="" class="javascript">
-        </div>
-        <br>
-        <div class="html-txt">
-            <h4>Html</h4>
-        </div>
-        <div class="css-txt">
-            <h4>Css</h4>
-        </div>
-        <div class="javascript-txt">
-            <h4>Javasript</h4>
-        </div>
-
+  </div>
+  <div class="col-auto">
+    <label class="visually-visible" for="autoSizingSelect">Preference</label>
+    <select class="form-select" id="autoSizingSelect">
+      <option selected>Choose...</option>
+      <option value="1">Male</option>
+      <option value="2">Female</option>
+      <option value="3">Others</option>
+    </select>
+  </div>
+  <div class="col-auto">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+      <label class="form-check-label" for="autoSizingCheck">
+        Remember me
+      </label>
     </div>
-
-
-    <div class="section5">
-        <br>
-        <h1>Contact me</h1>
-        <br><br><br>
-        <div class="message">
-            <input type="text" placeholder="Name" required class="name">
-            <input type="E-mail"placeholder="E-mail" required class="email">
-            <br><br>
-            <input type="text" placeholder="Message" required class="talk">
-        </div>
-
-    </div>
-
-
-
-</body>
-
+  </div>
+  <div class="col-auto">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+</div>
+  </body>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </html>
