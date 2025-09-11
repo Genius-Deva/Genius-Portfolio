@@ -73,3 +73,65 @@
     justify-content: center;
 }
 
+/* Base styles remain the same as you provided */
+
+/* Media Queries */
+
+/* Extra Small Devices (Phones, < 576px) */
+@media (max-width: 575.98px) {
+  .container-fluid img {
+    height: 50px; /* Adjust image height */
+  }
+  .card-img-overlay {
+    font-size: 30px; /* Smaller overlay text */
+  }
+  .card img {
+    height: 300px; /* Smaller card image */
+  }
+  .section1 {
+    flex-direction: column; /* Stack elements */
+    height: auto; /* Adjust height */
+    padding: 20px;
+  }
+  .sec3 form {
+    width: 90%; /* Make form more flexible */
+    padding: 20px;
+  }
+}
+.card-title, .card-text {
+    font-size: 0.8em; /* Adjust text sizes */
+  }
+
+
+/* Small Devices (Tablets, 576px - 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-fluid img {
+    height: 60px;
+  }
+  .card img {
+    height: 400px;
+  }
+  .section1 {
+    flex-direction: row; /* Keep row layout */
+    flex-wrap: wrap; /* Allow wrapping */
+  }
+  .sec3 form {
+    width: 80%;
+  }
+}
+/* Medium Devices (Desktops, 768px - 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-fluid img {
+    height: 70px;
+  }
+  .card img {
+    height: 600px;
+  }
+}
+
+/* Large Devices (Large Desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Base styles you've written likely apply here */
+}
+
+
