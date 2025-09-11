@@ -48,7 +48,28 @@
     background-color: #2c2f3e;
     height: 800px;
 }
+.card{
+    display: flex;
+    justify-content: center;
+}
 .sec3{
     background-color: #191E32;
-    height: 400px;
+    height: 600px;
+    
 }
+.sec3 form{
+    border: 2px solid black;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: #2C2F3E;
+    color: white;
+}
+.sec3 h1{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
