@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .navbar{
-    background-color: #62678a;
+    background-color: blue;
 }
 .container-fluid img{
     height: 80px;
@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;flex-direction: column;
     font-size: 60px;
     
 }
@@ -26,7 +27,7 @@
     height: 800px;
 }
 .sec1{
-    background-color: #191E32;
+    background-color: blue;
     color: white;
 }
 .services{
@@ -38,14 +39,13 @@
     display: flex;
     justify-content: space-around;
     height: 400px;
-    background-color: #191E32;
     color: white;
 }
 .section1 strong{
     font-size: 2em;
 }
 .sec2{
-    background-color: #2c2f3e;
+    background-color: #0000ffca;
     height: 800px;
 }
 .card{
@@ -53,17 +53,16 @@
     justify-content: center;
 }
 .sec3{
-    background-color: #191E32;
+    background-color: blue;
     height: 600px;
     
 }
 .sec3 form{
-    border: 2px solid black;
     width: 500px;
     margin: auto;
     padding: 30px;
     border-radius: 30px;
-    background-color: #2C2F3E;
+    background-color: #3535FF;
     color: white;
 }
 .sec3 h1{
