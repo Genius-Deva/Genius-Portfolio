@@ -133,4 +133,111 @@
   /* Base styles you've written likely apply here */
 }
 
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 800px;
+  background-color: #3535FF;
+}
+.hero img{
+  width: 300px;
+}
+.hero h6{
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: blue;
+  border: none;
+}
 
+
+/* Base styles remain the same as you provided */
+
+/* Media Queries */
+
+/* Extra Small Devices (Phones, < 576px) */
+@media (max-width: 575.98px) {
+  .container-fluid img {
+    height: 50px; 
+  }
+  .card-img-overlay {
+    font-size: 30px; 
+  }
+  .card img {
+    height: 300px; 
+  }
+  .section1 {
+    flex-direction: column; 
+    height: auto; 
+    padding: 20px;
+  }
+  .sec3 form {
+    width: 90%; 
+    padding: 20px;
+  }
+  .card-title, .card-text {
+    font-size: 0.8em; 
+  }
+.hero {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  .hero img {
+    width: 200px; /* Adjust image size */
+  }
+  .hero h6 {
+    padding: 10px;
+    font-size: 0.8em;
+  }
+}
+
+/* Small Devices (Tablets, 576px - 767px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-fluid img {
+    height: 60px;
+  }
+  .card img {
+    height: 400px;
+  }
+  .section1 {
+    flex-direction: row; 
+    flex-wrap: wrap; 
+  }
+.sec3 form {
+    width: 80%;
+  }
+  .hero {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .hero img {
+    width: 250px;
+  }
+}
+
+/* Medium Devices (Desktops, 768px - 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-fluid img {
+    height: 70px;
+  }
+  .card img {
+    height: 600px;
+  }
+  .hero img {
+    width: 280px;
+  }
+}
+
+/* Large Devices (Large Desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Base styles you've written likely apply here */
+  .hero {
+    height: 800px;
+  }
+  .hero img {
+    width: 300px;
+  }
+}
