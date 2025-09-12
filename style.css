@@ -44,10 +44,10 @@
 .section1 strong{
     font-size: 2em;
 }
-.sec2{
+/* .sec2{
     background-color: #0000ffca;
     height: 800px;
-}
+} */
 .card{
     display: flex;
     justify-content: center;
@@ -71,6 +71,30 @@
     align-items: center;
     justify-content: center;
 }
+.section2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec2-wrapper{
+  background-color: #3535FF;
+  height: 850px;
+}
+.sec2-wrapper h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
 
 /* Base styles remain the same as you provided */
 
@@ -140,6 +164,20 @@
   height: 800px;
   background-color: #3535FF;
 }
+.other{
+  background-color: #3535FF;
+  color: white;
+}
+.other h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .hero h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
 .hero img{
   width: 300px;
 }
