@@ -22,16 +22,16 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#hero">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#sec1">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Resume</a>
+          <a class="nav-link" href="#sec2">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Work</a>
+          <a class="nav-link" href="#sec3">Work</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
@@ -164,7 +164,411 @@ I build scalable web apps that can be <br>responsive on different platforms and 
 
 <div class="sec3">
   <br><br>
-  <h1>Contact me:</h1>
+  
+
+<style>
+    .wrapper1 {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+    .wrapper2 {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
+        
+    }
+    @property --angle{
+        syntax: "<angle>";
+            initial-value: 0deg;
+            inherits: false;
+    }
+    .wrap {
+        width: 29.45508100147275%;
+        
+        height: 550px;
+        border-radius: 20px;
+        margin-top: 50px;
+        background-color: #3535FF;
+        box-shadow: 0px 0px 80px blue inset;
+        background-image: conic-gradient(from var(--angle), rgb(130, 233, 156), rgb(38, 188, 68), rgb(130, 233, 156));
+        animation: 1s spin linear infinite;
+        /* display: flex;
+        flex-wrap: wrap; */
+        max-width: 29.45508100147275%;
+        min-width: 20rem;
+    }
+    input{
+        max-width: 87%;
+    }
+    @keyframes spin {
+        from{
+            --angle:0deg;
+
+        }
+        to{
+            --angle:360deg
+        }
+    }
+
+    .txt1 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 1000;
+
+        color: white;
+    }
+
+    input {
+        width: 350px;
+        border-radius: 5px;
+    }
+
+    #inp1 {
+        transform: translateX(6%);
+    }
+
+    #inp2 {
+        transform: translate(6%, 60%);
+    }
+
+    #email {
+        transform: translate(6%, 120%);
+    }
+
+    #pass1 {
+        transform: translate(6%, 180%);
+    }
+
+    #email2 {
+        transform: translate(6%, 120%);
+    }
+
+    #pass3 {
+        transform: translate(6%, 180%);
+    }
+
+    #pass2 {
+        transform: translate(6%, 240%);
+    }
+
+    .signupBtn {
+        background-color: rgb(3, 233, 3);
+        height: 40px;
+        width: 350px;
+        transform: translate(6%, 300%);
+        border-radius: 5px;
+        border: none;
+        font-size: large;
+        color: white;
+        max-width: 87.5%;
+    }
+
+    .txt2 {
+        font-size: 17px;
+        margin-top: 140px;
+        margin-left: 30px;
+
+    }
+
+    .loginBtn {
+        background-color: rgb(3, 233, 3);
+        height: 40px;
+        width: 80px;
+        /* margin-left: 220px; */
+       
+        border-radius: 5px;
+        border: none;
+        font-size: large;
+        color: white;
+        max-width: 20%;
+    }
+
+    button:hover {
+        background-color: green;
+        color: lightgreen;
+    }
+
+    .wrapper2 {
+        /* display: none; */
+    }
+
+    .wrap2 {
+        width: 29.45508100147275%;
+        height: 450px;
+        border-radius: 20px;
+        margin-top: 50px;
+        background-color: #3535FF;
+        box-shadow: 0px 0px 80px blue inset;
+        box-shadow: 0px 0px 80px blue inset;
+        background-image: conic-gradient(from var(--angle), rgb(130, 233, 156), rgb(38, 188, 68), rgb(130, 233, 156));
+        animation: 1s spin linear infinite;
+        max-width: 29.45508100147275%;
+        min-width: 20rem;
+        display: none;
+       
+    }
+
+    .txt3 {
+        text-align: center;
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 1000;
+
+        color: white;
+    }
+
+    .login {
+        background-color: #3535FF;
+        height: 40px;
+        width: 350px;
+        transform: translate(6%, 300%);
+        border-radius: 5px;
+        border: none;
+        font-size: large;
+        color: white;
+        max-width: 87.5%;
+    }
+
+    .txt4 {
+        font-size: 17px;
+        margin-top: 140px;
+        margin-left: 30px;
+        
+
+    }
+
+    .signup {
+        background-color: #3535FF;
+        height: 40px;
+        width: 80px;
+        /* margin-left: 220px; */
+       
+        border-radius: 5px;
+        border: none;
+        font-size: 15px;
+        color: white;
+        max-width: 20%;
+    }
+
+    #enterPage {
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+
+    input {
+        outline: none;
+        border: 2px solid #3535FF;
+        cursor: progress;
+    }
+
+    button {
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div id="wrapper1" class="wrapper1">
+        <div class="wrap" id="wrap">
+            <p class="txt1">Sign Up</p>
+            <input style="height: 30px;" placeholder="First name" type="text" id="inp1">
+            <input style="height: 30px;" placeholder="Last name" type="text" id="inp2">
+            <input style="height: 30px;" placeholder="Email Address" type="email" id="email">
+            <input style="height: 30px;" placeholder="Enter Password" type="password" id="pass1">
+            <input style="height: 30px;" placeholder="Confirm Password" type="password" id="pass2">
+            <button onclick="register()" class="signupBtn">Sign Up</button>
+            <p class="txt2">Already have an account <button onclick="showLogin()" class="loginBtn">Login</button><p> 
+        </div>
+    </div>
+    <div id="wrapper2" class="wrapper2">
+        
+        <div class="wrap2" id="wrap2">
+            <p class="txt3">Log In</p>
+            <input style="height: 30px;" placeholder="Email Address" type="email" id="email2">
+            <input style="height: 30px;" placeholder="Enter Password" type="password" id="pass3">
+            <button onclick="signin()" class="login">Log in</button>
+            <p class="txt4">Do not have an account <button onclick="showRegister()" class="signup">Signup</button></p>
+        </div>
+    </div>
+    <div id="enterPage"></div>
+</body>
+<script>
+    let email = document.getElementById('email')
+    let pass1 = document.getElementById('pass1')
+    let pass3 = document.getElementById('pass3')
+    let email2 = document.getElementById('email2')
+    let pass2 = document.getElementById('pass2')
+    let inp1 = document.getElementById('inp1')
+    let inp2 = document.getElementById('inp2')
+    let obj;
+    let arr = [];
+    let wrapper1 = document.getElementById('wrap')
+    let wrapper2 = document.getElementById('wrap2')
+    let enterPage = document.getElementById('enterPage')
+
+    function register() {
+        registration();
+    }
+    function registration() {
+
+
+        let i = arr.findIndex((userDetails) => userDetails.EmailAddress === email.value.trim())
+        if (email.value == "" || inp1.value == "" || inp2.value == "" || pass1 == '' || pass2 == '') {
+            alert('Fill all fields')
+
+        } else if (pass1.value != pass2.value) {
+            alert('Password does not match')
+
+        } else if ((pass1.value.length) < 8) {
+            alert('Password must be atleast 8 characters')
+        }
+        else if (i != -1) {
+            alert('User exists already')
+        } else {
+            obj = {
+                FirstName: inp1.value.trim(),
+                LastName: inp2.value.trim(),
+                Password: pass1.value.trim(),
+                EmailAddress: email.value.trim()
+            }
+            arr.push(obj)
+
+            console.log(arr);
+            localStorage.setItem("UserInput", JSON.stringify(arr))
+            wrapper1.style.display = 'none'
+            wrapper2.style.display = "block";
+
+        }
+
+    }
+
+    function showLogin() {
+        wrapper1.style.display = 'none'
+        wrapper2.style.display = "block";
+        localStorage.setItem("UserInput", JSON.stringify(arr))
+
+
+    }
+    function showRegister() {
+        wrapper1.style.display = 'block'
+        wrapper2.style.display = "none";
+        localStorage.setItem("UserInput", JSON.stringify(arr))
+    }
+
+    function signin() {
+    
+        let index = arr.findIndex((userDetails) => userDetails.Password === pass3.value.trim() && userDetails.EmailAddress === email2.value.trim())
+        if (index != -1) {
+            wrapper2.style.display = 'none'
+            wrapper1.style.display = "none";
+
+            enterPage.innerHTML = 'Welcome 🎃😅😤🤪🥴, so the code is working 😂😂'
+            enterPage.style.display = 'block'
+            const randomColor = () => {
+                let hexCode = '123456789ABCDEF';
+                let hashColor = '#';
+
+                for (let i = 0; i < 6; i++) {
+                    hashColor += hexCode[Math.floor(Math.random() * 16)]
+                }
+                return hashColor
+            };
+            setInterval(() => {
+                document.body.style.backgroundColor = randomColor()
+            }, 1000);
+        } else if (email2.value == '' || pass3.value == '') {
+            alert('Fill all fields')
+        }
+        else {
+            alert('Incorrect password or E-mail Address')
+        }
+    }
+    window.onload = function () {
+        let storedArr = JSON.parse(localStorage.getItem('UserInput'))
+        arr = storedArr;
+        // registration();
+    }
+
+    document.body.style.backgroundColor = 'lightgreen'
+    
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <!-- <h1>Contact me:</h1>
   <br>
     <form>
   <div class="row mb-3">
@@ -220,25 +624,6 @@ I build scalable web apps that can be <br>responsive on different platforms and 
   <button>Submit</button>
 
 </button>
-</form>
+</form> -->
 </div>
   </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</html>
